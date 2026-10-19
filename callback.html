@@ -1,0 +1,6 @@
+<!doctype html><meta charset="utf-8"><title>Tesla auth callback</title>
+<body style="font-family:sans-serif;max-width:40em;margin:3em auto">
+<h2>Tesla sign-in complete</h2><p>Copy this code back to Grok Bot (valid for a few minutes):</p>
+<pre id="c" style="background:#eee;padding:1em;word-break:break-all"></pre>
+<script>var p=new URLSearchParams(location.search);document.getElementById('c').textContent=p.get('code')||('No code. '+(p.get('error')||''));</script>
+</body>
